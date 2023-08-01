@@ -76,13 +76,11 @@ const Login = function Login(props) {
   return (
     <div>
       <Box height="20px">
-        <Text>
-          <Center>
+        <Text align="center">
             Due to our backend's service provider requiring time to windup free
             services after inactivity, it may take a while for the first
             interaction with the backend, such as logging in, to occur.
             Apologies for the inconvenience.
-          </Center>
         </Text>
       </Box>
       <Center width="100vw" height="100vh">
