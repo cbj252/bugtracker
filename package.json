@@ -1,0 +1,63 @@
+{
+  "name": "bugtrackerplus",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.19",
+    "@chakra-ui/react": "^2.6.1",
+    "@emotion/react": "^11.11.0",
+    "@emotion/styled": "^11.11.0",
+    "@supabase/auth-helpers-nextjs": "^0.7.2",
+    "@supabase/supabase-js": "^2.26.0",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^14.0.0",
+    "@testing-library/user-event": "^14.4.3",
+    "chart.js": "^4.3.0",
+    "classnames": "^2.3.2",
+    "file-system": "^2.2.2",
+    "framer-motion": "^10.12.12",
+    "fs": "^0.0.1-security",
+    "luxon": "^3.3.0",
+    "rc-progress": "^3.4.2",
+    "rc-upload": "^4.3.4",
+    "react": "^18.2.0",
+    "react-avatar-edit": "^1.2.0",
+    "react-chartjs-2": "^5.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.11.1",
+    "react-scripts": "5.0.1",
+    "react-table": "^7.8.0",
+    "react-toastify": "^9.1.3",
+    "socket.io-client": "^4.7.1",
+    "universal-cookie": "^4.0.4",
+    "web-vitals": "^3.3.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "webpack-cli": "^5.1.4"
+  }
+}
